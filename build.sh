@@ -1,5 +1,5 @@
 #!/bin/sh
 
-latexmk -pvc -pdf Resume.tex
+latexmk -pvc -pdf -outdir=docs Resume.tex
 latexmk -c
 
